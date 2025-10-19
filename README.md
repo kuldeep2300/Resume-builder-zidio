@@ -22,7 +22,6 @@ backend/
 │   └── integrationController.js  # Webhook & platform sync
 ├── middleware/
 │   ├── auth.js                   # JWT verification
-│   └── errorHandler.js           # Centralized error handler
 ├── models/
 │   ├── User.js                   # User schema with password hashing
 │   ├── Achievement.js            # Flexible achievement schema
@@ -35,7 +34,8 @@ backend/
 │   └── integrationRoutes.js      # Integration & webhook endpoints
 ├── utils/
 │   ├── generateToken.js          # JWT token creation
-│   └── resumeGenerator.js        # Skill extraction, summary, & completeness logic
+│   └── resumeGenerator.js        # Generate resume based on achievements
+│   └── skillExtractor.js        # Skill extraction, summary, & completeness logic
 ├── .env                          # Environment variables
 ├── .gitignore                    # Git exclusions
 ├── package.json                  # Dependencies
