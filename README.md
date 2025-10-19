@@ -35,7 +35,7 @@ backend/
 ├── utils/
 │   ├── generateToken.js          # JWT token creation
 │   └── resumeGenerator.js        # Generate resume based on achievements
-│   └── skillExtractor.js        # Skill extraction, summary, & completeness logic
+│   └── skillExtractor.js         # Skill extraction, summary, & completeness logic
 ├── .env                          # Environment variables
 ├── .gitignore                    # Git exclusions
 ├── package.json                  # Dependencies
