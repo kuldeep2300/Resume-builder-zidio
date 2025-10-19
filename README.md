@@ -350,7 +350,7 @@ When a frontend is developed, it will:
 ### 📞 CONTACT & REPOSITORY
 - **Developer**: Kuldeep Verma
 - **Email**: kv5228920@gmail.com
-- **GitHub**: []
+- **GitHub**: [https://github.com/kuldeep2300/Resume-builder-zidio]
 - **Documentation**: Comprehensive API testing guide available.
 
 ### ✅ CONCLUSION
