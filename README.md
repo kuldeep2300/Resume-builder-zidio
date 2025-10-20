@@ -152,9 +152,7 @@ npm ci --only=production
 # Run the app
 npm start
 ```
-
 ---
-```
 
 ### 🎯 APPROACH & METHODOLOGY
 
