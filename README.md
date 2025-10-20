@@ -77,40 +77,85 @@ JWT_SECRET=your_super_secret_jwt_key_change_this_in_production_12345
 
 ---
 
-## **Installation & Running Instructions**
+Got it 👍 — here’s the **corrected and properly formatted version** of your
+`## Installation & Running Instructions` section with consistent markdown styling and step highlighting:
 
-```markdown
 ---
 
-### 🚀 INSTALLATION & SETUP
+## **🧩 Installation & Running Instructions**
+
+---
+
+### 🚀 **INSTALLATION & SETUP**
 
 #### **Prerequisites**
 
 Before you begin, ensure you have the following installed:
-- **Node.js** (v18 or higher) - [Download](https://nodejs.org/)
-- **npm** (comes with Node.js)
-- **MongoDB Atlas Account** (free tier) - [Sign up](https://www.mongodb.com/cloud/atlas)
-- **Git** - [Download](https://git-scm.com/)
+
+* **Node.js** (v18 or higher) — [Download](https://nodejs.org/)
+* **npm** (comes with Node.js)
+* **MongoDB Atlas Account** (free tier) — [Sign up](https://www.mongodb.com/cloud/atlas)
+* **Git** — [Download](https://git-scm.com/)
 
 ---
 
-#### **Step 1: Clone the Repository**
+### 🪜 **Step 1: Clone the Repository**
 
 ```bash
+# Clone the repository
 git clone https://github.com/kuldeep2300/Resume-builder-zidio.git
+
+# Navigate into the project directory
 cd Resume-builder-zidio
 
-# Navigate to backend directory
+# Move into the backend folder
 cd backend
 ```
-#### **Step 2: Backend Setup**
+
+---
+
+### ⚙️ **Step 2: Backend Setup**
+
 ```bash
 # Install dependencies
 npm install
+```
 
-# Create and configure .env file
+```bash
+# Create and configure environment file
 cp .env.example .env
-# Edit .env with your MongoDB URI and JWT secret
+```
+
+> 📝 **Note:**
+>
+> * Edit the `.env` file and update your **MongoDB URI** and **JWT secret key**.
+> * Make sure your database credentials are correct and the connection string points to your Atlas cluster (or local MongoDB).
+
+---
+
+### ▶️ **Step 3: Run the Server**
+
+```bash
+# Start the backend server in development mode
+npm run dev
+```
+
+> The server will start running at **[http://localhost:5000](http://localhost:5000)** (or the port specified in `.env`).
+
+---
+
+### 🧠 **Optional: Production Build**
+
+If deploying to a production environment:
+
+```bash
+# Install production dependencies
+npm ci --only=production
+
+# Run the app
+npm start
+```
+
 ---
 ```
 
