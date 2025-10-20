@@ -102,10 +102,9 @@ cd Resume-builder-zidio
 
 # Navigate to backend directory
 cd backend
-```
 
 #### **Step 2: Backend Setup**
----
+
 # Install dependencies
 npm install
 
@@ -113,6 +112,7 @@ npm install
 cp .env.example .env
 # Edit .env with your MongoDB URI and JWT secret
 ---
+```
 
 ### 🎯 APPROACH & METHODOLOGY
 
