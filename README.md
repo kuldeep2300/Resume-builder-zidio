@@ -102,9 +102,9 @@ cd Resume-builder-zidio
 
 # Navigate to backend directory
 cd backend
-
+```
 #### **Step 2: Backend Setup**
-
+```bash
 # Install dependencies
 npm install
 
