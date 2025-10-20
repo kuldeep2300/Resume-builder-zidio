@@ -41,6 +41,25 @@ backend/
 ├── package.json                  # Dependencies
 └── server.js                     # Application entry point
 ```
+---
+
+# ============================================
+# SERVER CONFIGURATION
+# ============================================
+
+# Server Port
+PORT=5000
+
+# MongoDB Atlas Connection
+MONGO_URI=mongodb+srv://<username>:<password>@<cluster-url>/resume-ecosystem?retryWrites=true&w=majority
+# Alternative: Local MongoDB (Currently Commented Out)
+# MONGO_URI=mongodb://localhost:27017/resume_builder_db
+
+# JWT Authentication Secret
+JWT_SECRET=secret_key
+
+# Environment Mode
+NODE_ENV=development
 
 ### 🎯 APPROACH & METHODOLOGY
 
