@@ -77,9 +77,6 @@ JWT_SECRET=your_super_secret_jwt_key_change_this_in_production_12345
 
 ---
 
-Got it 👍 — here’s the **corrected and properly formatted version** of your
-`## Installation & Running Instructions` section with consistent markdown styling and step highlighting:
-
 ---
 
 ## **🧩 Installation & Running Instructions**
