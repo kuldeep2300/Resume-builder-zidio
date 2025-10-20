@@ -43,23 +43,76 @@ backend/
 ```
 ---
 
+---
+
+### 🔧 ENVIRONMENT CONFIGURATION
+
+#### **Required Environment Variables**
+
+Create a `.env` file in the `backend/` directory with the following configuration:
+
+```env
 # ============================================
 # SERVER CONFIGURATION
 # ============================================
-
-# Server Port
 PORT=5000
+NODE_ENV=development
 
-# MongoDB Atlas Connection
-MONGO_URI=mongodb+srv://<username>:<password>@<cluster-url>/resume-ecosystem?retryWrites=true&w=majority
-# Alternative: Local MongoDB (Currently Commented Out)
+# ============================================
+# DATABASE CONFIGURATION
+# ============================================
+# MongoDB Atlas Connection (Cloud Database)
+MONGO_URI=mongodb+srv://<username>:<password>@<cluster-url>/resume_builder_db?retryWrites=true&w=majority&appName=Cluster0
+
+# Alternative: Local MongoDB (Uncomment to use)
 # MONGO_URI=mongodb://localhost:27017/resume_builder_db
 
-# JWT Authentication Secret
-JWT_SECRET=secret_key
+# ============================================
+# AUTHENTICATION & SECURITY
+# ============================================
+# JWT Secret Key - MUST CHANGE IN PRODUCTION!
+JWT_SECRET=your_super_secret_jwt_key_change_this_in_production_12345
+```
+---
 
-# Environment Mode
-NODE_ENV=development
+---
+
+## **Installation & Running Instructions**
+
+```markdown
+---
+
+### 🚀 INSTALLATION & SETUP
+
+#### **Prerequisites**
+
+Before you begin, ensure you have the following installed:
+- **Node.js** (v18 or higher) - [Download](https://nodejs.org/)
+- **npm** (comes with Node.js)
+- **MongoDB Atlas Account** (free tier) - [Sign up](https://www.mongodb.com/cloud/atlas)
+- **Git** - [Download](https://git-scm.com/)
+
+---
+
+#### **Step 1: Clone the Repository**
+
+```bash
+git clone https://github.com/kuldeep2300/Resume-builder-zidio.git
+cd Resume-builder-zidio
+
+# Navigate to backend directory
+cd backend
+```
+
+#### **Step 2: Backend Setup**
+---
+# Install dependencies
+npm install
+
+# Create and configure .env file
+cp .env.example .env
+# Edit .env with your MongoDB URI and JWT secret
+---
 
 ### 🎯 APPROACH & METHODOLOGY
 
